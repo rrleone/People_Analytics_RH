@@ -1,89 +1,94 @@
-# 👥 People Analytics RH
+# 👥 People Analytics RH | Laboratório de Análise de Dados
 
-Projeto de Análise de Dados e Business Intelligence aplicado à gestão de Recursos Humanos, integrando Python, PostgreSQL, SQL e Power BI para transformar dados de colaboradores em indicadores e informações de apoio à decisão.
+Projeto de estudo e portfólio desenvolvido para praticar um fluxo de trabalho de ponta a ponta em Análise de Dados e Business Intelligence aplicado ao contexto de Recursos Humanos.
 
-## 🎯 Problema de negócio
+> **Natureza do projeto:** laboratório educacional com dados fictícios e indicadores simulados. Os resultados não representam uma empresa real.
 
-A gestão de Recursos Humanos envolve acompanhar a composição do quadro de funcionários, o perfil dos colaboradores, os custos de remuneração e a movimentação de pessoas.
+---
 
-Este projeto tem como objetivo estruturar uma solução analítica que permita acompanhar indicadores de pessoal, compreender a evolução do quadro de funcionários e apoiar análises relacionadas a admissões, desligamentos, remuneração e tempo de empresa.
+## 🎯 Problema de negócio simulado
 
-A proposta é demonstrar um fluxo de trabalho de ponta a ponta, desde a preparação e validação dos dados até a modelagem analítica e a apresentação de indicadores em dashboards executivos.
+Em um cenário fictício de Recursos Humanos, a gestão precisa acompanhar a composição do quadro de funcionários, o perfil dos colaboradores, os custos de remuneração e as movimentações de pessoal.
+
+Este projeto simula o desenvolvimento de uma solução analítica para organizar essas informações, construir indicadores e apresentar resultados que apoiem a interpretação de cenários de gestão de pessoas.
+
+O objetivo técnico é demonstrar como dados estruturados podem ser preparados, validados, consultados, modelados e apresentados por meio de ferramentas de Análise de Dados e Business Intelligence.
 
 ---
 
 ## 🗂️ Sobre os dados
 
-- **Domínio:** People Analytics / Recursos Humanos
-- **Tipo de análise:** Análise de Dados e Business Intelligence
-- **Banco de dados:** PostgreSQL
-- **Linguagem de consulta:** SQL
-- **Preparação e validação:** Python
-- **Visualização:** Power BI
-- **Versionamento:** Git e GitHub
+- **Origem:** base sintética desenvolvida para fins educacionais.
+- **Domínio:** People Analytics / Recursos Humanos.
+- **Tipo de análise:** Análise de Dados e Business Intelligence.
+- **Banco de dados:** PostgreSQL.
+- **Preparação e validação:** Python.
+- **Consultas analíticas:** SQL.
+- **Visualização:** Power BI.
+- **Versionamento:** Git e GitHub.
 
-### Principais conjuntos de dados
+### Conjuntos de dados
 
-| Conjunto de dados | Finalidade |
+| Tabela | Finalidade |
 |---|---|
-| `funcionarios` | Cadastro e informações dos colaboradores |
-| `eventos_rh` | Eventos de admissão e desligamento |
+| `funcionarios` | Cadastro e características dos colaboradores fictícios |
+| `eventos_rh` | Eventos simulados de admissão e desligamento |
 | `historico_quadro_mensal` | Histórico mensal do quadro de funcionários |
-| `historico_remuneracao` | Histórico mensal dos componentes de remuneração |
+| `historico_remuneracao` | Histórico mensal dos componentes remuneratórios |
 | `dim_calendario` | Referência temporal para as análises |
 | `dim_area` | Classificação das áreas organizacionais |
 | `dim_cargo` | Classificação dos cargos |
-| `dim_localidade` | Informações geográficas |
+| `dim_localidade` | Classificação das localidades |
 | `dim_nivel` | Classificação dos níveis hierárquicos |
 
-Os arquivos tratados são mantidos localmente e não fazem parte da publicação do repositório, em razão da necessidade de proteger os dados dos colaboradores.
+Os dados são utilizados exclusivamente para desenvolver e demonstrar procedimentos técnicos. Os indicadores devem ser interpretados dentro das regras e dos limites do cenário simulado.
 
 ---
 
 ## 🛠️ Ferramentas utilizadas
 
-- **Python:** automação de verificações e validação dos dados.
-- **PostgreSQL:** armazenamento e consulta dos dados.
-- **SQL:** exploração, agregações, análise temporal, funções de janela e consultas analíticas.
-- **Power BI:** construção dos dashboards e acompanhamento dos indicadores.
-- **DAX:** criação de medidas e indicadores para análise de Recursos Humanos.
-- **Git / GitHub:** versionamento, documentação e organização do portfólio.
+- **Python:** automação e validação dos dados.
+- **PostgreSQL:** armazenamento e consulta das tabelas.
+- **SQL:** exploração, agregações, análises temporais e funções de janela.
+- **Power BI:** construção dos dashboards e apresentação dos indicadores.
+- **DAX:** criação de medidas e indicadores analíticos.
+- **Git / GitHub:** versionamento e publicação do portfólio.
 - **Inteligência Artificial:** apoio ao desenvolvimento, à depuração e à documentação, com validação humana.
 
 ---
 
 ## 🔍 Etapas do projeto
 
-1. **Data Profiling** — entendimento da estrutura, dos tipos de dados e das características das tabelas.
+1. **Data Profiling** — entendimento da estrutura, dos tipos e das características dos dados.
 2. **Data Quality** — verificações de valores ausentes, duplicidades, consistência e integridade.
-3. **Data Preparation** — organização dos arquivos e preparação dos dados para análise.
-4. **Data Loading** — carga dos conjuntos de dados no PostgreSQL.
-5. **SQL Exploration** — consultas exploratórias e análise das informações de Recursos Humanos.
-6. **Analytical Queries** — desenvolvimento de consultas para quadro de funcionários, movimentações, remuneração e qualidade dos dados.
-7. **Data Modeling** — organização das tabelas, relacionamentos e dimensões analíticas.
-8. **Power BI Data Modeling** — configuração do modelo, calendário, relacionamentos e medidas DAX.
-9. **Dashboard & KPIs** — construção de páginas executivas e analíticas.
-10. **Business Insights** — interpretação dos indicadores e identificação de pontos de atenção.
+3. **Data Preparation** — organização e preparação dos arquivos para análise.
+4. **Data Loading** — carga das tabelas no PostgreSQL.
+5. **SQL Exploration** — exploração dos dados e compreensão das entidades.
+6. **Analytical Queries** — consultas para análise do quadro de funcionários, movimentações, remuneração e qualidade dos dados.
+7. **Data Modeling** — organização das tabelas, dimensões e relacionamentos.
+8. **Power BI Data Modeling** — configuração do modelo analítico, calendário e medidas DAX.
+9. **Dashboard & KPIs** — construção das páginas executivas e analíticas.
+10. **Business Insights** — interpretação dos resultados e identificação de pontos de atenção no cenário simulado.
 11. **AI-Assisted Analysis** — utilização de IA como apoio, com revisão e validação pelo analista.
-12. **Documentation & Portfolio** — organização dos scripts, documentação técnica e apresentação do projeto.
+12. **Documentation & Portfolio** — documentação técnica e organização dos materiais de apresentação.
 
-As etapas representam o fluxo de trabalho do projeto. A conclusão de cada análise deve ser considerada conforme seus respectivos resultados e validações.
+As etapas descrevem o fluxo de trabalho planejado e desenvolvido no laboratório. A conclusão de cada análise depende da validação dos respectivos resultados.
 
 ---
 
 ## 📊 Indicadores e validações
 
-Na consulta de perfil dos funcionários executada no PostgreSQL, foram registrados os seguintes resultados, considerando a referência de **30/09/2026**:
+Na consulta de perfil executada no PostgreSQL, foram registrados os seguintes resultados para a data de referência de **30/09/2026**:
 
-| Indicador | Resultado |
+| Indicador | Resultado registrado |
 |---|---:|
-| Total de funcionários cadastrados | 600 |
+| Funcionários cadastrados | 600 |
 | Funcionários ativos | 510 |
 | Funcionários desligados | 90 |
 
-Esses valores correspondem à consulta executada no banco de dados durante o desenvolvimento.
+Esses valores correspondem à base sintética utilizada durante o desenvolvimento e não representam estatísticas de uma empresa real.
 
-A classificação de funcionários ativos considera a data de admissão e a situação do desligamento na data de referência. Os indicadores devem ser interpretados conforme as regras de negócio e os filtros utilizados.
+A classificação considera a data de admissão e a situação do desligamento na data de referência. A interpretação dos indicadores depende das regras de negócio e dos filtros aplicados.
 
 A validação técnica também contempla verificações de integridade, consistência e relacionamento entre as tabelas.
 
@@ -91,40 +96,40 @@ A validação técnica também contempla verificações de integridade, consist�
 
 ## 🖼️ Prévia do dashboard
 
-O relatório desenvolvido no Power BI possui quatro páginas:
+O relatório desenvolvido no Power BI está organizado em quatro páginas.
 
 ### 01 — Visão Executiva
 
-Visão consolidada dos principais indicadores de Recursos Humanos, com foco no acompanhamento do quadro de funcionários e dos resultados gerais.
+Apresentação consolidada dos principais indicadores do cenário simulado de Recursos Humanos.
 
 ### 02 — Perfil RH
 
-Análise do perfil dos colaboradores, incluindo características organizacionais, níveis hierárquicos e tempo de empresa.
+Exploração do perfil dos colaboradores, da distribuição organizacional e do tempo de empresa.
 
 ### 03 — Remuneração
 
-Acompanhamento dos custos de pessoal, composição da remuneração e indicadores relacionados aos valores remuneratórios.
+Análise dos custos de pessoal, da composição remuneratória e dos indicadores relacionados à remuneração.
 
 ### 04 — Turnover
 
-Análise das movimentações de pessoal, com acompanhamento de admissões, desligamentos e indicadores relacionados à rotatividade.
+Análise das movimentações simuladas de pessoal, incluindo admissões, desligamentos e indicadores de rotatividade.
 
-As capturas das páginas estão disponíveis na pasta `07_Portfolio/`.
+As capturas de tela estão organizadas na pasta `07_Portfolio/`.
 
 ---
 
 ## 📈 Análises e oportunidades
 
-A estrutura analítica permite explorar questões relevantes para a gestão de pessoas, como:
+O laboratório permite explorar perguntas como:
 
-- Como o quadro de funcionários evolui ao longo do tempo?
-- Como os colaboradores estão distribuídos entre áreas, cargos e níveis?
+- Como o quadro de funcionários evolui ao longo do período analisado?
+- Como os colaboradores se distribuem entre áreas, cargos e níveis?
 - Qual é a composição dos custos de remuneração?
-- Como as admissões e os desligamentos se distribuem ao longo dos períodos?
+- Como as admissões e os desligamentos se distribuem ao longo do tempo?
 - Qual é o perfil de tempo de empresa dos colaboradores?
-- Quais indicadores merecem acompanhamento pela gestão de Recursos Humanos?
+- Quais indicadores merecem acompanhamento em um cenário de gestão de pessoas?
 
-As respostas devem ser fundamentadas nos dados, nas definições das métricas e nos filtros aplicados. Associações observadas não representam, por si só, relações de causalidade.
+As respostas devem ser fundamentadas nos dados, nas definições das métricas e nos filtros utilizados. Como se trata de uma base sintética, as conclusões servem para demonstrar métodos de análise, e não para afirmar resultados reais sobre uma organização.
 
 ---
 
@@ -144,7 +149,15 @@ People_Analytics_RH/
 │
 ├── 03_SQL/
 │   ├── scripts/
+│   │   └── 00_diagnostico_banco.sql
 │   ├── consultas/
+│   │   ├── 01_perfil_funcionarios.sql
+│   │   ├── 02_quadro_por_area.sql
+│   │   ├── 03_admissoes_desligamentos.sql
+│   │   ├── 04_analise_remuneracao.sql
+│   │   ├── 05_qualidade_dados.sql
+│   │   ├── 06_window_functions.sql
+│   │   └── 07_views_analiticas.sql
 │   └── README.md
 │
 ├── 04_Modelagem/
@@ -167,51 +180,52 @@ People_Analytics_RH/
 └── README.md
 ```
 
-A estrutura apresenta os principais diretórios e arquivos do repositório. Os arquivos CSV de dados e os relatórios locais de validação são excluídos da publicação.
+A árvore apresenta a organização esperada dos principais arquivos. Os arquivos de dados locais não precisam ser publicados automaticamente: sua inclusão deve considerar a utilidade para reprodução, a consistência entre versões e a confirmação de que contêm somente dados sintéticos.
 
 ---
 
 ## 🚀 Como reproduzir
 
-Para reproduzir o fluxo de trabalho em outro ambiente:
+Para reproduzir o laboratório em outro ambiente:
 
-1. Configure o Python e as dependências necessárias para executar os scripts.
-2. Configure o PostgreSQL e crie o banco de dados `people_analytics_rh`.
-3. Disponibilize localmente os arquivos de dados autorizados para uso.
-4. Configure as credenciais de conexão por meio do ambiente local, sem inseri-las no código ou no repositório.
-5. Execute o script `02_Python/carregar_csvs_postgresql_seguro_v2.py`, respeitando as verificações de segurança implementadas.
-6. Execute as consultas SQL em `03_SQL/consultas/` conforme suas dependências.
-7. Abra `05_PowerBI/People_analytics.pbix` e configure a conexão ao banco de dados do ambiente.
-8. Atualize os dados e confira os indicadores apresentados no relatório.
+1. Instale e configure o Python e as dependências necessárias.
+2. Instale o PostgreSQL e crie o banco `people_analytics_rh`.
+3. Disponibilize os arquivos sintéticos necessários no ambiente local.
+4. Configure os parâmetros de conexão sem inserir senhas ou credenciais no código.
+5. Execute `02_Python/carregar_csvs_postgresql_seguro_v2.py`, respeitando as verificações de segurança do script.
+6. Consulte os arquivos SQL de `03_SQL/consultas/` e execute as análises conforme suas dependências.
+7. Abra `05_PowerBI/People_analytics.pbix`.
+8. Configure a conexão ao banco e atualize os dados.
+9. Confira os indicadores apresentados e compare-os com as consultas de validação.
 
-Os resultados podem variar conforme a versão dos dados, as regras de transformação e a configuração do ambiente.
+Os resultados podem variar conforme a versão dos arquivos, as regras de transformação e a configuração do ambiente.
 
-**Segurança:** não publique dados pessoais de colaboradores, senhas, credenciais, arquivos `.env` ou informações confidenciais.
+**Segurança:** não publique credenciais, senhas, arquivos `.env` ou informações confidenciais.
 
 ---
 
 ## 🤖 Uso profissional de Inteligência Artificial
 
-A Inteligência Artificial foi incorporada ao fluxo de desenvolvimento como ferramenta de apoio à programação, à elaboração de consultas SQL, à revisão de medidas, à depuração e à documentação.
+A IA foi utilizada como apoio ao desenvolvimento de scripts, consultas SQL, medidas, depuração e documentação.
 
-O uso profissional de IA neste projeto considera quatro responsabilidades:
+O uso profissional da ferramenta é organizado em quatro dimensões:
 
-1. **Conhecimento do analista:** compreender os dados, as regras de negócio, o código e as métricas utilizadas.
+1. **Conhecimento do analista:** compreender os dados, as regras de negócio, o código e as métricas.
 2. **Aceleração com IA:** utilizar a ferramenta para apoiar tarefas técnicas e reduzir trabalho repetitivo.
-3. **Validação humana:** verificar consultas, fórmulas, relacionamentos e resultados antes de utilizá-los em análises.
-4. **Documentação:** registrar decisões, limitações e procedimentos relevantes para garantir transparência e reprodutibilidade.
+3. **Validação humana:** conferir fórmulas, consultas, relacionamentos e resultados antes de utilizá-los.
+4. **Documentação:** registrar decisões, limitações e procedimentos relevantes para a reprodutibilidade.
 
-A IA atua como apoio ao trabalho analítico. A responsabilidade pela qualidade dos dados, pela validação dos resultados e pela interpretação de negócio permanece com o analista.
+A IA apoia o trabalho analítico, mas não substitui a compreensão técnica, a validação dos resultados ou a responsabilidade do analista.
 
 ---
 
 ## ✅ Conclusão
 
-O People Analytics RH demonstra a aplicação integrada de preparação de dados, Python, PostgreSQL, SQL, modelagem analítica, DAX e Power BI em um contexto de Recursos Humanos.
+O People Analytics RH é um laboratório de estudo que demonstra a integração de Python, PostgreSQL, SQL, modelagem analítica, DAX e Power BI em um cenário fictício de Recursos Humanos.
 
-O projeto reúne componentes técnicos e analíticos para transformar dados estruturados em indicadores que apoiam o acompanhamento do quadro de funcionários, da remuneração e das movimentações de pessoal.
+O projeto reúne preparação de dados, consultas analíticas, construção de indicadores, visualização e documentação em um fluxo de trabalho de ponta a ponta.
 
-Além da construção do dashboard, a iniciativa valoriza a qualidade dos dados, a documentação, a reprodutibilidade e o uso responsável da Inteligência Artificial.
+Seu propósito é demonstrar competências técnicas, raciocínio analítico, qualidade de implementação e comunicação de resultados, com transparência sobre o caráter sintético dos dados.
 
 ---
 
