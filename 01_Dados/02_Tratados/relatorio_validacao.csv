@@ -1,0 +1,24 @@
+﻿teste,quantidade_de_ocorrencias
+Funcionários (esperado 600),0
+IDs de funcionário duplicados,0
+Nulos fora de data_demissao,0
+Desligamentos anteriores à admissão,0
+Desligamentos após 30/09/2026,0
+Funcionários ativos (esperado 510),0
+Desligados (esperado 90),0
+IDs de evento duplicados,0
+Eventos com funcionário inexistente,0
+Admissões sem evento,0
+Desligamentos sem evento,0
+Duplicidades funcionário + mês remuneração,0
+Remuneração antes da admissão,0
+Remuneração no mês da demissão ou depois,0
+IDs de área inválidos,0
+Nomes de área divergentes,0
+Cargo/nível/área sem dimensão,0
+Localidade sem dimensão,0
+Nível sem dimensão,0
+Meses com quadro divergente,0
+Meses com remuneração diferente do quadro,0
+Último salário divergente da base,0
+Valores negativos em remuneração,0

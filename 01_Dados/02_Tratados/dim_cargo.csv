@@ -1,0 +1,32 @@
+﻿cargo,nivel,id_area,area
+Analista Comercial,Analista,1,Comercial
+Assistente Comercial,Assistente,1,Comercial
+Coordenador Comercial,Coordenação,1,Comercial
+Gerente Comercial,Gerência,1,Comercial
+Analista de Sistemas,Analista,2,Tecnologia
+Coordenador de TI,Coordenação,2,Tecnologia
+Desenvolvedor,Analista,2,Tecnologia
+Engenheiro de Dados,Especialista,2,Tecnologia
+Gerente de TI,Gerência,2,Tecnologia
+Analista de Operações,Analista,3,Operações
+Assistente Operacional,Assistente,3,Operações
+Gerente de Operações,Gerência,3,Operações
+Supervisor de Operações,Coordenação,3,Operações
+Analista Financeiro,Analista,4,Financeiro
+Assistente Financeiro,Assistente,4,Financeiro
+Coordenador Financeiro,Coordenação,4,Financeiro
+Gerente Financeiro,Gerência,4,Financeiro
+Analista de RH,Analista,5,Recursos Humanos
+Assistente de RH,Assistente,5,Recursos Humanos
+Business Partner,Especialista,5,Recursos Humanos
+Coordenador de RH,Coordenação,5,Recursos Humanos
+Analista de Logística,Analista,6,Logística
+Assistente de Logística,Assistente,6,Logística
+Gerente de Logística,Gerência,6,Logística
+Supervisor de Logística,Coordenação,6,Logística
+Analista de Atendimento,Analista,7,Atendimento
+Atendente,Operacional,7,Atendimento
+Supervisor de Atendimento,Coordenação,7,Atendimento
+Analista de Marketing,Analista,8,Marketing
+Assistente de Marketing,Assistente,8,Marketing
+Coordenador de Marketing,Coordenação,8,Marketing
