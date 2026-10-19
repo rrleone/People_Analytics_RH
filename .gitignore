@@ -39,7 +39,7 @@ outputs/
 *.backup
 
 # Relatórios locais de validação
-01_Dados/03_Validacao/relatorio_validacao.csv
+
 
 # Scripts antigos de carga PostgreSQL
 02_Python/carregar_csvs_postgresql.py
