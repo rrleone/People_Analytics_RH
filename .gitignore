@@ -1,0 +1,48 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Python: cache e arquivos temporários
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.log
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+
+# Editores
+.vscode/
+.idea/
+
+# Dados brutos e dados locais
+data/raw/*
+!data/raw/.gitkeep
+01_Dados/01_Originais/
+01_Dados/02_Tratados/
+
+# Relatórios e saídas geradas localmente
+outputs/
+01_Dados/03_Validacao/relatorio_validacao_gerado.csv
+
+# Arquivos temporários de Power BI
+*.tmp
+~$*
+
+# Não publicar backups
+*.bak
+*.backup
+
+# Relatórios locais de validação
+01_Dados/03_Validacao/relatorio_validacao.csv
+
+# Scripts antigos de carga PostgreSQL
+02_Python/carregar_csvs_postgresql.py
+02_Python/carregar_csvs_postgresql_seguro.py
