@@ -1,14 +1,17 @@
  <div align="center">
 
-# PEOPLE ANALYTICS RH
+# 📊 PRIMECommerce BI
 
-### Human Resources Analytics · Workforce Intelligence · Turnover
+### Commercial Analytics · Sales Performance · Business Intelligence
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+**Business Intelligence project developed by Renato Leone**
 
-**Análise de indicadores de Recursos Humanos para apoiar decisões de gestão de pessoas.**
+Transforming e-commerce operational data into indicators, visual analyses and insights to support commercial decision-making.
+
+![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power Query](https://img.shields.io/badge/Power%20Query-ETL-217346?style=for-the-badge)
+![DAX](https://img.shields.io/badge/DAX-Data%20Analysis-2F80ED?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-267C78?style=for-the-badge)
 
 </div>
 
@@ -16,240 +19,181 @@
 
 ## Visão geral do projeto
 
-O **People Analytics RH** é um projeto de análise de dados desenvolvido para praticar um fluxo de trabalho de ponta a ponta em Análise de Dados e Business Intelligence aplicado ao contexto de Recursos Humanos.
+O **PrimeCommerce BI** é um projeto de Business Intelligence voltado à análise comercial de um e-commerce de pequeno porte.
 
-O projeto reúne preparação e validação de dados com Python, armazenamento e consultas analíticas em PostgreSQL, exploração com SQL, modelagem e visualização de indicadores em dashboards desenvolvidos no Power BI.
+O objetivo é transformar dados operacionais em informações estruturadas, indicadores e dashboards que permitam acompanhar o desempenho das vendas, compreender o comportamento dos clientes e identificar oportunidades de melhoria.
 
-> **Natureza do projeto:** laboratório educacional com dados fictícios e indicadores simulados. Os resultados não representam uma empresa real.
+O projeto contempla etapas de perfilamento, qualidade e preparação dos dados, modelagem analítica, criação de indicadores com DAX e desenvolvimento de dashboards no Power BI.
+
+![Capa PrimeCommerce BI](05_Images/Capa%20PrimeCommerce%20BI%20com%20Dashboard%20de%20Vendas.png)
 
 ## Dashboards
 
-### 01 · Visão Executiva
+O relatório Power BI está organizado em três páginas analíticas.
 
-Apresentação consolidada dos principais indicadores do cenário simulado de Recursos Humanos.
+### 01 — Visão Geral Comercial
 
-![Visão Executiva](<07_Portfolio/01 - VISÃO EXECUTIVA.png>)
+Painel executivo para acompanhamento dos principais indicadores de desempenho comercial.
 
-### 02 · Perfil RH
+- Faturamento Total
+- Pedidos Totais
+- Quantidade de Itens
+- Ticket Médio
+- Lucro Bruto
+- Faturamento por Categoria
+- Faturamento por Vendedor
+- Faturamento por Canal de Venda
 
-Exploração do perfil dos colaboradores, distribuição organizacional e tempo de empresa.
+![PrimeCommerce BI — Visão Geral Comercial](images/dashboard_visao_geral.png)
 
-![Perfil RH](<07_Portfolio/02 - PERFIL RH.png>)
+### 02 — Análise de Vendas
 
-### 03 · Remuneração
+Análise da evolução temporal dos indicadores e comparação do desempenho entre os canais de venda.
 
-Análise dos custos de pessoal, da composição remuneratória e dos indicadores relacionados à remuneração.
+- Evolução do Faturamento Mensal
+- Evolução dos Pedidos Mensais
+- Evolução do Ticket Médio Mensal
+- Pedidos por Canal de Venda
+- Faturamento por Canal de Venda
+- Ticket Médio por Canal de Venda
 
-![Remuneração](<07_Portfolio/03 - REMUNERAÇÃO.png>)
+![PrimeCommerce BI — Análise de Vendas](images/dashboard_analise_vendas.png)
 
-### 04 · Turnover
+### 03 — Clientes e Canais
 
-Análise das movimentações simuladas de pessoal, incluindo admissões, desligamentos e indicadores de rotatividade.
+Análise do comportamento dos clientes, recorrência de compras, distribuição geográfica e desempenho dos canais.
 
-![Turnover](<07_Portfolio/04 - TURNOVER.png>)
+- Clientes Únicos
+- Clientes Recorrentes
+- Faturamento por Cliente
+- Pedidos por Cliente
+- Faturamento por Estado e Cidade
+- Jornada de Recorrência dos Clientes
+- Desempenho dos Canais de Venda
+- Top 5 Clientes por Faturamento
+- Clientes Únicos por Cidade
+- Participação dos cinco principais clientes no faturamento
+
+![PrimeCommerce BI — Clientes e Canais](images/dashboard_clientes_canais.png)
 
 ## Problema de negócio e objetivos
 
-Em um cenário fictício de Recursos Humanos, a gestão precisa acompanhar a composição do quadro de funcionários, o perfil dos colaboradores, os custos de remuneração e as movimentações de pessoal.
+A gestão da PrimeCommerce precisa acompanhar o desempenho comercial e compreender como o faturamento se distribui entre canais de venda, categorias de produtos e vendedores.
 
-O projeto simula o desenvolvimento de uma solução analítica para organizar essas informações, construir indicadores e apresentar resultados que apoiem a interpretação de cenários de gestão de pessoas.
+O projeto busca responder a questões como:
 
-**Objetivos:**
+- Quais canais apresentam maior faturamento e volume de pedidos?
+- Quais categorias de produtos contribuem mais para o faturamento?
+- Como o faturamento, os pedidos e o ticket médio evoluem ao longo do tempo?
+- Como os clientes se distribuem geograficamente?
+- Qual é o nível de recorrência das compras?
+- Existe concentração de faturamento nos principais clientes?
 
-- Acompanhar a composição e evolução do quadro de funcionários.
-- Analisar o perfil dos colaboradores e sua distribuição organizacional.
-- Explorar custos e componentes de remuneração.
-- Investigar admissões e desligamentos.
-- Construir indicadores e dashboards para análise de RH.
-- Demonstrar um fluxo de trabalho de ponta a ponta em Data Analytics e BI.
+**Objetivo:** transformar dados operacionais em indicadores e análises visuais que apoiem o acompanhamento do desempenho e a tomada de decisões comerciais.
 
 ## Dados utilizados
 
-O projeto utiliza uma base sintética desenvolvida para fins educacionais.
+- **Fonte:** dados simulados para estudo e portfólio
+- **Segmento:** e-commerce
+- **Período:** janeiro a agosto de 2026
+- **Registros:** 1.492, conforme documentação da base de origem
+- **Formato:** CSV
 
-A base reúne informações relacionadas ao cadastro de funcionários, eventos de RH, histórico mensal do quadro de funcionários, remuneração e dimensões organizacionais.
+### Tabelas utilizadas
 
-| Tabela | Finalidade |
-|---|---|
-| `funcionarios` | Cadastro e características dos colaboradores fictícios |
-| `eventos_rh` | Eventos simulados de admissão e desligamento |
-| `historico_quadro_mensal` | Histórico mensal do quadro de funcionários |
-| `historico_remuneracao` | Histórico mensal dos componentes remuneratórios |
-| `dim_calendario` | Referência temporal para as análises |
-| `dim_area` | Classificação das áreas organizacionais |
-| `dim_cargo` | Classificação dos cargos |
-| `dim_localidade` | Classificação das localidades |
-| `dim_nivel` | Classificação dos níveis hierárquicos |
+- `clientes`
+- `produtos`
+- `vendedores`
+- `pedidos`
+- `itens_pedido`
+- `pagamentos`
+- `entregas`
 
-Os dados são utilizados exclusivamente para desenvolver e demonstrar procedimentos técnicos. Os indicadores devem ser interpretados dentro das regras e dos limites do cenário simulado.
+Os dados são fictícios e não representam uma empresa real.
 
 ## Metodologia analítica
 
-O fluxo de trabalho contempla as seguintes etapas:
+O projeto foi desenvolvido seguindo um fluxo de trabalho de Business Intelligence.
 
-| Etapa | Processo | Objetivo |
-|---|---|---|
-| 01 | Data Profiling | Entendimento da estrutura, tipos e características dos dados |
-| 02 | Data Quality | Verificação de valores ausentes, duplicidades, consistência e integridade |
-| 03 | Data Preparation | Organização e preparação dos arquivos |
-| 04 | Data Loading | Carga das tabelas no PostgreSQL |
-| 05 | SQL Exploration | Exploração das entidades e estruturas de dados |
-| 06 | Analytical Queries | Consultas sobre quadro, movimentações, remuneração e qualidade |
-| 07 | Data Modeling | Organização das tabelas, dimensões e relacionamentos |
-| 08 | Power BI Data Modeling | Configuração do modelo analítico, calendário e medidas DAX |
-| 09 | Dashboard & KPIs | Construção das páginas executivas e analíticas |
-| 10 | Business Insights | Interpretação dos resultados do cenário simulado |
-| 11 | AI-Assisted Analysis | Utilização de IA como apoio, com revisão e validação humana |
-| 12 | Documentation & Portfolio | Documentação técnica e organização dos materiais |
+**Fluxo:** Dados → Qualidade → Tratamento → Modelagem → Indicadores → Dashboards → Insights
 
-**Fluxo:** Dados → Qualidade → Análises → Modelagem → Indicadores → Dashboards → Insights.
+### 1. Perfilamento e qualidade dos dados
 
-## Indicadores e validações
+Foram verificadas:
 
-Na consulta de perfil executada no PostgreSQL, foram registrados os seguintes resultados para a data de referência de **30/09/2026**:
+- Quantidade de registros e tipos de dados
+- Valores nulos e inválidos
+- Espaços extras em textos
+- Unicidade das chaves
+- Integridade referencial entre tabelas
 
-| Indicador | Resultado registrado |
-|---|---:|
-| Funcionários cadastrados | 600 |
-| Funcionários ativos | 510 |
-| Funcionários desligados | 90 |
+Durante o perfilamento, foram identificadas ocorrências como valores nulos, quantidades inválidas, preços unitários negativos, datas inconsistentes e registros sem correspondência em algumas chaves.
 
-A classificação considera a data de admissão e a situação do desligamento na data de referência.
+### 2. Preparação e tratamento
 
-Esses valores correspondem à base sintética utilizada durante o desenvolvimento e não representam estatísticas de uma empresa real.
+O tratamento foi realizado no Power Query, incluindo:
 
-A validação técnica também contempla verificações de integridade, consistência e relacionamento entre as tabelas.
+- Preenchimento controlado de valores nulos com `Não informado`
+- Correção de quantidades inválidas
+- Correção de preços unitários com referência ao cadastro de produtos
+- Correção de datas de entrega inconsistentes
+- Remoção de espaços extras em campos textuais
+- Consultas de QA para validação de registros sem correspondência
 
-## Principais perspectivas analisadas
+### 3. Modelagem de dados
 
-- **Workforce:** composição e evolução do quadro de funcionários.
-- **Perfil organizacional:** distribuição entre áreas, cargos, níveis e localidades.
-- **Remuneração:** custos de pessoal e componentes remuneratórios.
-- **Movimentações:** admissões e desligamentos ao longo do tempo.
-- **Turnover:** análise das movimentações e indicadores de rotatividade.
-- **Tempo de empresa:** perfil de permanência dos colaboradores.
+Foram estruturados relacionamentos entre:
 
-As análises devem ser interpretadas considerando os dados, as regras de negócio e os filtros aplicados. Por se tratar de um cenário sintético, os resultados não representam conclusões sobre uma organização real.
+- Clientes e pedidos
+- Vendedores e pedidos
+- Pedidos e itens do pedido
+- Produtos e itens do pedido
+- Pedidos e pagamentos
+- Pedidos e entregas
+
+### 4. Indicadores e métricas
+
+Foram desenvolvidos indicadores utilizando DAX:
+
+- Faturamento Total
+- Pedidos Totais
+- Quantidade de Itens
+- Ticket Médio
+- Faturamento Concluído
+- Custo Total
+- Lucro Bruto
+
+Também foi criada a coluna calculada `Custo_Total`, considerando a quantidade de itens e o custo unitário dos produtos.
+
+## Principais insights
+
+As análises documentadas no projeto identificaram:
+
+- O **Site** apresenta o maior faturamento e o maior volume de pedidos entre os canais analisados.
+- **Escritório** é a categoria com maior faturamento.
+- **Março** apresenta o menor faturamento do período.
+- Em março, o volume de pedidos permanece elevado, mas o ticket médio é o menor do período, contribuindo para o menor faturamento mensal.
+- **Maio** apresenta o maior faturamento e o maior ticket médio mensal.
+- **Marketplace** apresenta o maior ticket médio entre os canais de venda.
+
+A análise de Clientes e Canais amplia a compreensão sobre recorrência, concentração do faturamento, distribuição geográfica e desempenho comercial.
 
 ## Tecnologias e ferramentas
 
 | Tecnologia | Aplicação no projeto |
 |---|---|
-| Python | Automação, preparação e validação dos dados |
-| PostgreSQL | Armazenamento e consulta das tabelas |
-| SQL | Exploração, agregações, análises temporais e funções de janela |
-| Power BI | Modelagem analítica e dashboards |
-| DAX | Medidas e indicadores analíticos |
-| Git / GitHub | Versionamento e documentação do projeto |
-| Inteligência Artificial | Apoio ao desenvolvimento, depuração e documentação, com validação humana |
+| Microsoft Power BI | Desenvolvimento dos dashboards e visualização analítica |
+| Power Query (M) | Perfilamento, preparação e transformação dos dados |
+| DAX | Criação de medidas, métricas e indicadores |
+| Modelagem de dados | Organização das tabelas e relacionamentos |
+| GitHub | Versionamento e documentação do projeto |
 
 ## Estrutura do repositório
 
 ```text
-People_Analytics_RH/
-├── 01_Dados/
-│   ├── 01_Originais/
-│   ├── 02_Tratados/
-│   └── 03_Validacao/
-├── 02_Python/
-│   ├── carregar_csvs_postgresql_seguro_v2.py
-│   └── validar_base_people_analytics.py
-├── 03_SQL/
-│   ├── scripts/
-│   │   └── 00_diagnostico_banco.sql
-│   ├── consultas/
-│   │   ├── 01_perfil_funcionarios.sql
-│   │   ├── 02_quadro_por_area.sql
-│   │   ├── 03_admissoes_desligamentos.sql
-│   │   ├── 04_analise_remuneracao.sql
-│   │   ├── 05_qualidade_dados.sql
-│   │   ├── 06_window_functions.sql
-│   │   └── 07_views_analiticas.sql
-│   └── README.md
-├── 04_Modelagem/
-│   └── README.md
-├── 05_PowerBI/
-│   └── People_analytics.pbix
-├── 06_Documentacao/
-│   ├── Guia_Comandos_People_Analytics_RH.pdf
-│   └── Relatorio_Processo_People_Analytics_RH.pdf
-├── 07_Portfolio/
-│   ├── 01 - VISÃO EXECUTIVA.png
-│   ├── 02 - PERFIL RH.png
-│   ├── 03 - REMUNERAÇÃO.png
-│   └── 04 - TURNOVER.png
-├── .gitignore
-└── README.md
-```
-
-A inclusão de arquivos de dados no repositório deve considerar a utilidade para reprodução, a consistência entre versões e a confirmação de que contêm somente dados sintéticos.
-
-## Como reproduzir o projeto
-
-Para reproduzir o laboratório em outro ambiente:
-
-1. Instale e configure Python e as dependências necessárias.
-2. Instale o PostgreSQL e crie o banco `people_analytics_rh`.
-3. Disponibilize os arquivos sintéticos necessários no ambiente local.
-4. Configure os parâmetros de conexão sem inserir senhas ou credenciais no código.
-5. Execute `02_Python/carregar_csvs_postgresql_seguro_v2.py`, respeitando as verificações de segurança do script.
-6. Consulte os arquivos SQL de `03_SQL/consultas/`.
-7. Abra `05_PowerBI/People_analytics.pbix`.
-8. Configure a conexão ao banco e atualize os dados.
-9. Confira os indicadores apresentados e compare-os com as consultas de validação.
-
-Os resultados podem variar conforme a versão dos arquivos, as regras de transformação e a configuração do ambiente.
-
-> **Segurança:** não publique credenciais, senhas, arquivos `.env` ou informações confidenciais.
-
-## Uso profissional de Inteligência Artificial
-
-A IA foi utilizada como apoio ao desenvolvimento de scripts, consultas SQL, medidas, depuração e documentação.
-
-O uso profissional da ferramenta é organizado em quatro dimensões:
-
-- **Conhecimento do analista:** compreender os dados, regras de negócio, código e métricas.
-- **Aceleração com IA:** utilizar a ferramenta para apoiar tarefas técnicas e reduzir trabalho repetitivo.
-- **Validação humana:** conferir fórmulas, consultas, relacionamentos e resultados antes de utilizá-los.
-- **Documentação:** registrar decisões, limitações e procedimentos relevantes para a reprodutibilidade.
-
-A IA apoia o trabalho analítico, mas não substitui a compreensão técnica, a validação dos resultados ou a responsabilidade do analista.
-
-## Conclusão
-
-O **People Analytics RH** demonstra a integração de Python, PostgreSQL, SQL, modelagem analítica, DAX e Power BI em um cenário fictício de Recursos Humanos.
-
-O projeto reúne preparação de dados, consultas analíticas, construção de indicadores, visualização e documentação em um fluxo de trabalho de ponta a ponta.
-
-Seu propósito é demonstrar competências técnicas, raciocínio analítico, qualidade de implementação e comunicação de resultados, com transparência sobre o caráter sintético dos dados.
-
----
-
-## Autor
-
-**Renato Leone**  
-Analista de Dados | Business Intelligence
-
-- **GitHub:** [github.com/rrleone](https://github.com/rrleone)
-- **Portfólio:** [Renato Leone — Data Analytics & BI](https://sites.google.com/view/renatoleone/)
-- **Repositório:** [People_Analytics_RH](https://github.com/rrleone/People_Analytics_RH)
-
-## Referências
-
-**Documentação**
-
-- [Python](https://docs.python.org/3/)
-- [PostgreSQL](https://www.postgresql.org/docs/)
-- [Microsoft Power BI](https://learn.microsoft.com/power-bi/)
-- [DAX — Microsoft Learn](https://learn.microsoft.com/dax/)
-
----
-
-<div align="center">
-
-**PEOPLE ANALYTICS RH**  
-*Dados · Qualidade · Análise · Insights · Decisões*
-
-**RENATO LEONE | DATA ANALYTICS & BUSINESS INTELLIGENCE**
-
-</div>
+PrimeCommerce_BI/
+├── 01_Dados_Raw/
+│   ├── clientes.csv
+│   ├── produtos.csv
+│   ├── vendedores.csv
+│  
