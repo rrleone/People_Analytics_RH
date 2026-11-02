@@ -1,16 +1,16 @@
  <div align="center">
 
-# 📊 PRIMECommerce BI
+# PRIMECOMMERCE BI
 
-### Commercial Analytics · Sales Performance · Business Intelligence
+### Análise Comercial · Desempenho de Vendas · Business Intelligence
 
-**Business Intelligence project developed by Renato Leone**
+**Projeto de Business Intelligence desenvolvido por Renato Leone**
 
-Transforming e-commerce operational data into indicators, visual analyses and insights to support commercial decision-making.
+Transformação de dados operacionais de e-commerce em indicadores, análises visuais e insights para apoiar a tomada de decisões comerciais.
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Power Query](https://img.shields.io/badge/Power%20Query-ETL-217346?style=for-the-badge)
-![DAX](https://img.shields.io/badge/DAX-Data%20Analysis-2F80ED?style=for-the-badge)
+![DAX](https://img.shields.io/badge/DAX-Análise%20de%20Dados-2F80ED?style=for-the-badge)
 ![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-267C78?style=for-the-badge)
 
 </div>
@@ -23,9 +23,9 @@ O **PrimeCommerce BI** é um projeto de Business Intelligence voltado à anális
 
 O objetivo é transformar dados operacionais em informações estruturadas, indicadores e dashboards que permitam acompanhar o desempenho das vendas, compreender o comportamento dos clientes e identificar oportunidades de melhoria.
 
-O projeto contempla etapas de perfilamento, qualidade e preparação dos dados, modelagem analítica, criação de indicadores com DAX e desenvolvimento de dashboards no Power BI.
+O projeto contempla perfilamento, qualidade e preparação dos dados, modelagem analítica, criação de indicadores com DAX e desenvolvimento de dashboards no Power BI.
 
-![Capa PrimeCommerce BI](05_Images/Capa%20PrimeCommerce%20BI%20com%20Dashboard%20de%20Vendas.png)
+![PrimeCommerce BI — Capa](03_Images/Capa%20PrimeCommerce%20BI%20com%20Dashboard%20de%20Vendas.png)
 
 ## Dashboards
 
@@ -44,7 +44,7 @@ Painel executivo para acompanhamento dos principais indicadores de desempenho co
 - Faturamento por Vendedor
 - Faturamento por Canal de Venda
 
-![PrimeCommerce BI — Visão Geral Comercial](images/dashboard_visao_geral.png)
+![PrimeCommerce BI — Visão Geral Comercial](03_Images/dashboard_visao_geral.png)
 
 ### 02 — Análise de Vendas
 
@@ -57,7 +57,7 @@ Análise da evolução temporal dos indicadores e comparação do desempenho ent
 - Faturamento por Canal de Venda
 - Ticket Médio por Canal de Venda
 
-![PrimeCommerce BI — Análise de Vendas](images/dashboard_analise_vendas.png)
+![PrimeCommerce BI — Análise de Vendas](03_Images/dashboard_analise_vendas.png)
 
 ### 03 — Clientes e Canais
 
@@ -74,20 +74,20 @@ Análise do comportamento dos clientes, recorrência de compras, distribuição 
 - Clientes Únicos por Cidade
 - Participação dos cinco principais clientes no faturamento
 
-![PrimeCommerce BI — Clientes e Canais](images/dashboard_clientes_canais.png)
+![PrimeCommerce BI — Clientes e Canais](03_Images/dashboard_clientes_canais.png)
 
 ## Problema de negócio e objetivos
 
 A gestão da PrimeCommerce precisa acompanhar o desempenho comercial e compreender como o faturamento se distribui entre canais de venda, categorias de produtos e vendedores.
 
-O projeto busca responder a questões como:
+O projeto busca responder às seguintes questões:
 
 - Quais canais apresentam maior faturamento e volume de pedidos?
-- Quais categorias de produtos contribuem mais para o faturamento?
-- Como o faturamento, os pedidos e o ticket médio evoluem ao longo do tempo?
+- Quais categorias contribuem mais para o faturamento?
+- Como faturamento, pedidos e ticket médio evoluem ao longo do tempo?
 - Como os clientes se distribuem geograficamente?
 - Qual é o nível de recorrência das compras?
-- Existe concentração de faturamento nos principais clientes?
+- Existe concentração do faturamento nos principais clientes?
 
 **Objetivo:** transformar dados operacionais em indicadores e análises visuais que apoiem o acompanhamento do desempenho e a tomada de decisões comerciais.
 
@@ -112,8 +112,6 @@ O projeto busca responder a questões como:
 Os dados são fictícios e não representam uma empresa real.
 
 ## Metodologia analítica
-
-O projeto foi desenvolvido seguindo um fluxo de trabalho de Business Intelligence.
 
 **Fluxo:** Dados → Qualidade → Tratamento → Modelagem → Indicadores → Dashboards → Insights
 
@@ -176,7 +174,7 @@ As análises documentadas no projeto identificaram:
 - **Maio** apresenta o maior faturamento e o maior ticket médio mensal.
 - **Marketplace** apresenta o maior ticket médio entre os canais de venda.
 
-A análise de Clientes e Canais amplia a compreensão sobre recorrência, concentração do faturamento, distribuição geográfica e desempenho comercial.
+A página Clientes e Canais complementa essas análises com informações sobre recorrência, concentração do faturamento, distribuição geográfica e desempenho comercial.
 
 ## Tecnologias e ferramentas
 
@@ -196,4 +194,57 @@ PrimeCommerce_BI/
 │   ├── clientes.csv
 │   ├── produtos.csv
 │   ├── vendedores.csv
-│  
+│   ├── pedidos.csv
+│   ├── itens_pedido.csv
+│   ├── pagamentos.csv
+│   └── entregas.csv
+├── 02_Power_BI/
+│   └── PrimeCommerce_BI.pbix
+├── 03_Documentacao/
+├── 04_Exportacoes/
+├── 03_Images/
+│   ├── Capa PrimeCommerce BI com Dashboard de Vendas.png
+│   ├── dashboard_visao_geral.png
+│   ├── dashboard_analise_vendas.png
+│   └── dashboard_clientes_canais.png
+└── README.md
+```
+
+## Como explorar o projeto
+
+1. Clone ou baixe o repositório.
+2. Acesse a pasta `02_Power_BI`.
+3. Abra `PrimeCommerce_BI.pbix` no Power BI Desktop.
+4. Verifique os caminhos das fontes de dados, caso necessário.
+5. Atualize os dados utilizando a opção **Atualizar**.
+6. Navegue pelas três páginas do relatório.
+
+**Observação:** a reprodução poderá exigir ajustes nos caminhos dos arquivos de origem.
+
+## Autor
+
+**Renato Leone**  
+Analista de Dados | Business Intelligence
+
+- **GitHub:** [github.com/rrleone](https://github.com/rrleone)
+- **Portfólio:** [Renato Leone — Data Analytics & BI](https://sites.google.com/view/renatoleone/)
+- **Repositório:** [PrimeCommerce_BI](https://github.com/rrleone/PrimeCommerce_BI)
+
+## Referências
+
+**Documentação**
+
+- [Microsoft Power BI](https://learn.microsoft.com/power-bi/)
+- [Power Query](https://learn.microsoft.com/power-query/)
+- [DAX — Microsoft Learn](https://learn.microsoft.com/dax/)
+
+---
+
+<div align="center">
+
+**PRIMECOMMERCE BI**  
+*Dados · Qualidade · Análise · Insights · Decisões*
+
+**RENATO LEONE | DATA ANALYTICS & BUSINESS INTELLIGENCE**
+
+</div>
