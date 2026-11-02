@@ -1,117 +1,181 @@
+ <div align="center">
 
+# PEOPLE ANALYTICS RH
 
-<div align="center">
+### Human Resources · Workforce · Compensation · Turnover
 
-# PRIMECOMMERCE BI
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-### Análise Comercial · Desempenho de Vendas · Business Intelligence
-
-**Projeto de Business Intelligence desenvolvido por Renato Leone**
-
-Transformação de dados comerciais em indicadores, análises visuais e insights para apoiar a tomada de decisões de negócio.
+**Análise de dados de Recursos Humanos para explorar indicadores de pessoas e apoiar decisões de gestão.**
 
 </div>
 
 ---
 
-## 📌 Visão Geral do Projeto
+## Visão geral do projeto
 
-O **PrimeCommerce BI** é um projeto de Business Intelligence voltado à análise do desempenho comercial de um e-commerce.
+![Capa — People Analytics RH](https://raw.githubusercontent.com/rrleone/People_Analytics_RH/main/07_Portfolio/01%20-%20VIS%C3%83O%20EXECUTIVA.png)
 
-O projeto utiliza recursos do Power BI para transformar dados operacionais em informações relevantes, permitindo acompanhar indicadores de vendas, avaliar o comportamento comercial e identificar oportunidades de melhoria.
+O **People Analytics RH** é um laboratório de análise de dados desenvolvido para praticar um fluxo de trabalho de ponta a ponta em Análise de Dados e Business Intelligence aplicado ao contexto de Recursos Humanos.
 
-A proposta é demonstrar o processo analítico desde a preparação dos dados até a construção de dashboards interativos, com foco em qualidade, clareza visual e geração de insights.
+O projeto integra preparação e validação de dados com Python, armazenamento e consultas no PostgreSQL, análise com SQL, modelagem e indicadores com DAX e visualização no Power BI.
 
----
+> **Natureza do projeto:** laboratório educacional com dados fictícios e indicadores simulados. Os resultados não representam uma empresa real.
 
-## 📊 Dashboards
+## Dashboards
 
-### Capa do Projeto
+### 01 · Visão Executiva
 
-![PrimeCommerce BI — Capa](05_Images/Capa_PrimeCommerce%20BI.png)
+Visão consolidada dos principais indicadores do cenário simulado de Recursos Humanos.
 
-### 01. Visão Geral
+![Visão Executiva](https://raw.githubusercontent.com/rrleone/People_Analytics_RH/main/07_Portfolio/01%20-%20VIS%C3%83O%20EXECUTIVA.png)
 
-Painel executivo para acompanhamento dos principais indicadores de desempenho comercial.
+### 02 · Perfil RH
 
-![Dashboard Visão Geral](05_Images/dashboard_visao_geral.png)
+Exploração do perfil dos colaboradores, distribuição organizacional e tempo de empresa.
 
-### 02. Análise de Vendas
+![Perfil RH](https://raw.githubusercontent.com/rrleone/People_Analytics_RH/main/07_Portfolio/02%20-%20PERFIL%20RH.png)
 
-Análise do desempenho comercial, evolução das vendas e comportamento dos indicadores ao longo do período.
+### 03 · Remuneração
 
-![Dashboard Análise de Vendas](05_Images/dashboard_analise_vendas.png)
+Análise dos custos de pessoal, composição remuneratória e indicadores relacionados à remuneração.
 
-### 03. Clientes e Canais
+![Remuneração](https://raw.githubusercontent.com/rrleone/People_Analytics_RH/main/07_Portfolio/03%20-%20REMUNERA%C3%87%C3%83O.png)
 
-Análise dos clientes e dos canais comerciais, com foco na compreensão do comportamento de compra e da contribuição para os resultados.
+### 04 · Turnover
 
-![Dashboard Clientes e Canais](05_Images/dashboard_clientes_canais.png)
+Análise das movimentações simuladas de pessoal, incluindo admissões, desligamentos e indicadores de rotatividade.
 
----
+![Turnover](https://raw.githubusercontent.com/rrleone/People_Analytics_RH/main/07_Portfolio/04%20-%20TURNOVER.png)
 
-## 🎯 Problema de Negócio
+## Problema de negócio e objetivos
 
-Empresas de e-commerce precisam acompanhar continuamente seus resultados comerciais para compreender o desempenho das vendas, identificar variações e apoiar decisões estratégicas.
+Em um cenário fictício de Recursos Humanos, a gestão precisa acompanhar a composição do quadro de funcionários, o perfil dos colaboradores, os custos de remuneração e as movimentações de pessoal.
 
-A ausência de uma visão integrada dos indicadores pode dificultar:
+**Objetivos do laboratório:**
 
-- O acompanhamento do desempenho comercial;
-- A identificação de tendências e variações;
-- A análise do comportamento dos clientes;
-- A avaliação dos canais de vendas;
-- A identificação de oportunidades de melhoria.
+- Analisar a composição e evolução do quadro de funcionários.
+- Explorar a distribuição de colaboradores por área, cargo e nível.
+- Investigar indicadores de remuneração.
+- Analisar admissões e desligamentos.
+- Desenvolver consultas analíticas e indicadores.
+- Comunicar resultados por meio de dashboards.
 
-O PrimeCommerce BI busca organizar essas informações em uma estrutura analítica que facilite a interpretação dos resultados.
+## Dados utilizados
 
----
+O projeto utiliza uma base sintética desenvolvida para fins educacionais.
 
-## 🎯 Objetivos do Projeto
+| Conjunto de dados | Finalidade |
+|---|---|
+| `funcionarios` | Cadastro e características dos colaboradores fictícios |
+| `eventos_rh` | Eventos simulados de admissão e desligamento |
+| `historico_quadro_mensal` | Histórico mensal do quadro de funcionários |
+| `historico_remuneracao` | Histórico mensal dos componentes remuneratórios |
+| `dim_calendario` | Referência temporal |
+| `dim_area` | Classificação das áreas organizacionais |
+| `dim_cargo` | Classificação dos cargos |
+| `dim_localidade` | Classificação das localidades |
+| `dim_nivel` | Classificação dos níveis hierárquicos |
 
-- Desenvolver uma solução de Business Intelligence para análise comercial;
-- Preparar e estruturar os dados para análise;
-- Construir indicadores de desempenho;
-- Desenvolver dashboards interativos no Power BI;
-- Analisar vendas, clientes e canais;
-- Identificar padrões e oportunidades de negócio;
-- Transformar dados em informações relevantes para a tomada de decisões.
+Os indicadores devem ser interpretados considerando as regras de negócio, a data de referência e os filtros utilizados.
 
----
+## Metodologia analítica
 
-## 🗂️ Dados Utilizados
+O laboratório contempla as seguintes etapas:
 
-O projeto utiliza dados relacionados ao contexto comercial de um e-commerce.
+| Etapa | Aplicação |
+|---|---|
+| Data Profiling | Compreensão da estrutura e características dos dados |
+| Data Quality | Verificações de valores ausentes, duplicidades e integridade |
+| Data Preparation | Preparação dos arquivos para análise |
+| Data Loading | Carga dos dados no PostgreSQL |
+| SQL Exploration | Exploração e compreensão das entidades |
+| Analytical Queries | Consultas sobre quadro, movimentações, remuneração e qualidade |
+| Data Modeling | Organização das tabelas e relacionamentos |
+| DAX & KPIs | Construção de medidas e indicadores |
+| Dashboard | Desenvolvimento das páginas analíticas no Power BI |
+| Business Insights | Interpretação dos resultados do cenário simulado |
+| Documentation | Organização dos scripts, relatórios e documentação |
 
-As informações são organizadas para permitir análises sobre:
+**Fluxo:** Dados → Qualidade → Preparação → SQL → Modelagem → Indicadores → Dashboards → Insights.
 
-- Desempenho das vendas;
-- Indicadores comerciais;
-- Clientes;
-- Canais de vendas;
-- Evolução dos resultados.
+## Indicadores e validações
 
-Os dados são preparados antes da construção dos indicadores e dashboards, considerando a necessidade de consistência e confiabilidade das informações.
+Na consulta de perfil executada no PostgreSQL, foram registrados os seguintes resultados para **30/09/2026**:
 
----
+| Indicador | Resultado registrado |
+|---|---:|
+| Funcionários cadastrados | 600 |
+| Funcionários ativos | 510 |
+| Funcionários desligados | 90 |
 
-## 🔎 Metodologia Analítica
+Os números correspondem à base sintética utilizada durante o desenvolvimento.
 
-O desenvolvimento do projeto segue uma abordagem estruturada de Business Intelligence:
+A classificação considera a data de admissão e a situação do desligamento na data de referência. A validação técnica contempla verificações de integridade, consistência e relacionamentos entre tabelas.
 
-**Dados → Qualidade → Análise → Insights → Decisões**
+## Principais perspectivas analíticas
 
-### 1. Preparação dos Dados
+- **Workforce:** evolução e composição do quadro de funcionários.
+- **Perfil organizacional:** distribuição por área, cargo e nível.
+- **Remuneração:** análise dos custos e componentes remuneratórios.
+- **Movimentações:** admissões e desligamentos ao longo do tempo.
+- **Turnover:** acompanhamento da rotatividade no cenário simulado.
+- **Tempo de empresa:** análise do perfil de permanência dos colaboradores.
 
-- Importação dos dados;
-- Organização das informações;
-- Tratamento e transformação;
-- Preparação das tabelas para análise.
+As análises demonstram possibilidades de investigação e não representam conclusões sobre uma organização real.
 
-### 2. Qualidade dos Dados
+## Tecnologias e ferramentas
 
-- Verificação da consistência das informações;
-- Identificação de possíveis problemas;
-- Padronização dos dados;
-- Validação da estrutura utilizada nas análises.
+| Tecnologia | Aplicação no projeto |
+|---|---|
+| Python | Preparação, automação e validação dos dados |
+| PostgreSQL | Armazenamento e consulta das tabelas |
+| SQL | Exploração, agregações, análises temporais e funções de janela |
+| Modelagem de dados | Organização das tabelas e relacionamentos |
+| Power BI | Modelagem analítica e dashboards |
+| DAX | Medidas e indicadores |
+| Git / GitHub | Versionamento e documentação |
+| Inteligência Artificial | Apoio técnico, depuração e documentação com validação humana |
 
-### 3. Modelagem e Indicadores
+## Estrutura do repositório
+
+```text
+People_Analytics_RH/
+├── 01_Dados/
+│   ├── 01_Originais/
+│   ├── 02_Tratados/
+│   └── 03_Validacao/
+├── 02_Python/
+│   ├── carregar_csvs_postgresql_seguro_v2.py
+│   └── validar_base_people_analytics.py
+├── 03_SQL/
+│   ├── scripts/
+│   ├── consultas/
+│   └── README.md
+├── 04_Modelagem/
+│   └── README.md
+├── 05_PowerBI/
+│   └── People_analytics.pbix
+├── 06_Documentacao/
+│   ├── Guia_Comandos_People_Analytics_RH.pdf
+│   └── Relatorio_Processo_People_Analytics_RH.pdf
+├── 07_Portfolio/
+│   ├── 01 - VISÃO EXECUTIVA.png
+│   ├── 02 - PERFIL RH.png
+│   ├── 03 - REMUNERAÇÃO.png
+│   └── 04 - TURNOVER.png
+├── .gitignore
+└── README.md
+```
+
+A estrutura apresenta os principais componentes do laboratório. A publicação dos dados locais deve considerar a necessidade de reprodução e confirmar que os arquivos contêm exclusivamente dados sintéticos.
+
+## Como reproduzir
+
+1. Configure Python e PostgreSQL no ambiente.
+2. Crie o banco `people_analytics_rh`.
+3. Disponibilize os arquivos sintéticos necessários.
+4. Configure os parâmetros de conexão sem expor credenciais.
+5. Execute `
