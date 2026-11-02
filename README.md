@@ -184,4 +184,53 @@ A estrutura apresenta os principais componentes do laboratório. A publicação 
 2. Crie o banco `people_analytics_rh`.
 3. Disponibilize os arquivos sintéticos necessários.
 4. Configure os parâmetros de conexão sem expor credenciais.
-5. Execute `
+5. Execute `02_Python/carregar_csvs_postgresql_seguro_v2.py`.
+6. Consulte os scripts SQL em `03_SQL/consultas/`.
+7. Abra `05_PowerBI/People_analytics.pbix`.
+8. Configure a conexão e atualize os dados.
+9. Compare os indicadores com as consultas de validação.
+
+Os resultados podem variar conforme a versão dos arquivos, as regras de transformação e a configuração do ambiente.
+
+**Segurança:** não publique senhas, credenciais, arquivos `.env` ou informações confidenciais.
+
+## Uso profissional de Inteligência Artificial
+
+A IA foi utilizada como apoio ao desenvolvimento de scripts, consultas SQL, medidas, depuração e documentação.
+
+O uso profissional foi organizado em quatro dimensões:
+
+- **Conhecimento do analista:** compreensão dos dados, regras de negócio, código e métricas.
+- **Aceleração com IA:** apoio a tarefas técnicas e redução de trabalho repetitivo.
+- **Validação humana:** conferência de fórmulas, consultas, relacionamentos e resultados.
+- **Documentação:** registro de decisões, limitações e procedimentos relevantes.
+
+A IA apoia o trabalho analítico, mas não substitui a compreensão técnica, a validação dos resultados ou a responsabilidade do analista.
+
+## Conclusão
+
+O **People Analytics RH** demonstra a integração de Python, PostgreSQL, SQL, modelagem analítica, DAX e Power BI em um cenário fictício de Recursos Humanos.
+
+O laboratório reúne preparação de dados, consultas analíticas, construção de indicadores, visualização e documentação em um fluxo de trabalho de ponta a ponta.
+
+Seu propósito é demonstrar competências técnicas, raciocínio analítico, qualidade de implementação e comunicação de resultados, com transparência sobre o caráter sintético dos dados.
+
+## Autor
+
+**Renato Leone**  
+Analista de Dados | Business Intelligence
+
+- **GitHub:** [github.com/rrleone](https://github.com/rrleone)
+- **Portfólio:** [Renato Leone — Data Analytics & BI](https://sites.google.com/view/renatoleone/)
+- **Repositório:** [People_Analytics_RH](https://github.com/rrleone/People_Analytics_RH)
+
+---
+
+<div align="center">
+
+**PEOPLE ANALYTICS RH**  
+*Dados · Qualidade · Análise · Insights · Decisões*
+
+**RENATO LEONE | DATA ANALYTICS & BUSINESS INTELLIGENCE**
+
+</div>
